@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photos</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: rgb(201, 136, 146);
+      }
+      footer {
+        text-align: center;
+        background-color: rgb(161, 239, 195);
+        height: 40px;
+        line-height: 40px;
+        font-size: larger;
+      }
+      header {
+        text-align: center;
+        color: rgb(179, 179, 236);
+        background-color: rgb(41, 83, 2);
+        padding-top: 20px;
+        font-size: large;
+      }
+      h1 {
+        margin-bottom: 40px;
+        font-size: xx-large;
+      }
+      main {
+        margin: 10px;
+        background-color: rgb(236, 139, 139);
+      }
+      div {
+        height: 200px;
+        overflow: auto;
+        border: double;
+        clear: both;
+      }
+      img {
+        height: 400px;
+        width: auto;
+        float: center;
+        margin: auto;
+        text-align: center;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(47, 68, 11);
+        height: 50px;
+      }
+      nav a {
+        color: blanchedalmond;
+        text-decoration: none;
+        font-size: 18px;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      nav a:hover,
+      .active {
+        background-color: rgb(250, 121, 121);
+        color: rgb(12, 76, 78);
+        transition: color 0.7s;
+        transition: background-color 0.7s;
+      }
+      @media (max-width: 400px) {
+        nav {
+          flex-direction: column;
+          height: 100px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Inside out 2</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="photos.html" class="active">Photos</a>
+        <a href="information.html">Information</a>
+        <a href="songs.html">Songs</a>
+      </nav>
+    </header>
+    <main>
+      <img src="1.jpeg" alt="" />
+      <img src="10.jpeg" alt="" />
+      <img src="11.jpeg" alt="" />
+      <img src="12.jpeg" alt="" />
+      <img src="13.jpeg" alt="" />
+      <img src="14.jpeg" alt="" />
+      <img src="2.jpeg" alt="" />
+      <img src="3.jpeg" alt="" />
+      <img src="4.jpeg" alt="" />
+      <img src="5.jpeg" alt="" />
+      <img src="6.jpeg" alt="" />
+      <img src="7.jpeg" alt="" />
+      <img src="8.jpeg" alt="" />
+      <img src="9.jpeg" alt="" />
+    </main>
+    <footer>&copy;Inside out "2",2024</footer>
+  </body>
+</html>
